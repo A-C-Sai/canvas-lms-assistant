@@ -20,18 +20,17 @@ This notebook provides a comprehensive exploration of Claude's capabilities thro
    - Citation capabilities
    - Stop sequence configuration
    
-2. **Advanced Parameter Tuning**
+2. **Parameter Tuning**
    - Stop sequence configuration
    - Temperature adjustment and few-shot prompting
    - System prompt optimization
    
-3. **Interactive Features**
-   - Streaming responses with and without tools and handling
+3. **Prototyping**
    - RAG (Retrieval-Augmented Generation) prototypes with ipywidgets
    
 4. **Tool Integration**
    - Basic tool usage implementation
-   - Streaming with tool calls
+   - Streaming responses with and without tools and handling
    - RAG application prototyping with tools
    
 5. **High-Level Abstractions**
@@ -45,7 +44,6 @@ This notebook demonstrates a progressive exploration of LangGraph capabilities, 
 
 1. **Basic Memory-less Chatbot**
    - Initial implementation with StateGraph
-   <!-- - Basic message flow configuration -->
    - Integration with AWS Bedrock
 
 2. **State Persistence Evolution**
