@@ -13,7 +13,7 @@ This directory contains the notebooks, results and analysis used to evaluate and
 
 ## Metrics and key results
 
-We measure retrieval quality primarily with a Contextual Relevancy metric (threshold 0.7, evaluated with an LLM evaluator).
+We measure retrieval quality primarily with a Contextual Relevancy metric.
 
 Contextual Relevancy
 - Definition: the Contextual Relevancy metric uses an LLM-as-a-judge to measure the quality of a retriever by evaluating how relevant the information presented in the retrieval context is for a given input. It is a self-explaining LLM-eval that returns both a score and a reason for that score.
