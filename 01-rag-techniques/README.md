@@ -42,9 +42,8 @@ This directory contains a series of Jupyter notebooks exploring various Retrieva
 7. **[06-Hypothetical-Document-Embedding-HyDE.ipynb](06-Hypothetical-Document-Embedding-HyDE.ipynb)**
    - HyDE implementation
    - Synthetic document generation
-   - Enhanced semantic matching
    - Performance comparison with standard RAG
 
 8. **[07-Hypothetical-Prompt-Embeddings-HyPE.ipynb](07-Hypothetical-Prompt-Embeddings-HyPE.ipynb)**
-   - HyPE methodology
-   - Prompt-based embeddings
+   - HyPE implementation
+   - Hypothetical prompts generation and Prompt-based embeddings
