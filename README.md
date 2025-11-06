@@ -29,7 +29,7 @@ ARTIM is an AI-powered helper designed to assist students with [Canvas LMS](http
 
 ## ARTIM
 
-![ARTIM UI](./attachments/artim-1.png)
+![ARTIM UI](./attachments/artim-3.png)
 
 ![ARTIM Working Demo](./attachments/artim-2.gif)
 
