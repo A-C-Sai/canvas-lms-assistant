@@ -169,6 +169,9 @@ edit_prompt = None
 
 if user_input:
 
+    for i in range(0, 1):
+      st.markdown(" ") # fixes ghost widgets
+
     if edit_prompt is not None:
         edit_prompt.empty()
         edit_prompt = None
