@@ -17,7 +17,7 @@ ARTIM is an AI-powered helper designed to assist students with [Canvas LMS](http
 
 ## Project Highlights
 
-- Battle Tested Chatbot: Evaluation driven development with the use of deepeval:
+- Battle Tested Chatbot - Evaluation driven development with the use of deepeval:
   - generated synthetic dataset based on knowledge base.
   - tested and improved initial implementations.
 
@@ -35,9 +35,9 @@ ARTIM is an AI-powered helper designed to assist students with [Canvas LMS](http
 
 ## Key Learnings
 
-- During the project I have had the opportunity to deep dive into various open-source libaries includeing langchain, langgraph and deepeval. This was necessary to understand the implementation details at times when the documentation was as comprehensive. Mid project LangChain released v1.0 which brought a lot of changes, reading the source code of langchain as well as it's integrations as pivotal in my learning process. While daunting at start, I ended up with a more comprehensive understanding of the internal workings than reading a documentation would have given.
+- During the project I have had the opportunity to deep dive into various open-source libaries including langchain, langgraph and deepeval. This was necessary to understand the implementation details at times when the documentation was not as comprehensive. Mid project LangChain released v1.0 which brought a lot of changes, reading the source code of langchain as well as it's integrations was pivotal in my learning process. While daunting at start, I ended up with a more comprehensive understanding of the internal workings than reading a documentation would have given.
 
-- Working with low-lvl APIs vs High-lvl abstractions (LangChain): During the development I worked interacting with anthropic models using both boto3/ bedrock (low-lvl) implementation as well as High-lvl abstractions provided by LangChain. While starting with LangChain is easier to get started with development GenAI and Agentic AI Applications, I was able to explore the greater level of control working with low level implementations, at times favouring them over LangChain. At the time of initial development, LangChain's AWS Bedrock was yet to reach feature parity, so the MVP was implemented using boto3/ bedrock. LangChain/ LangGraph was only fovoured in the final product due to the rich features/ complete package it has to offer.
+- Working with low-lvl APIs vs High-lvl abstractions (LangChain): During the development I worked interacting with anthropic models using both boto3/ bedrock (low-lvl) implementation as well as High-lvl abstractions provided by LangChain. While starting with LangChain is easier to get started with development GenAI and Agentic AI Applications, I was able to explore the greater level of control provided by low level implementations, at times favouring them over LangChain. At the time of initial development, LangChain's AWS Bedrock was yet to reach feature parity, so the MVP was implemented using boto3/ bedrock. LangChain/ LangGraph was only fovoured in the final product due to the rich features/ complete package it has to offer.
 
 - Having worked predominatly predominantly OPENAI chat models through LangChain, this project gave me the opportunity to work with Anthropic's Claude, specificially `claude-3-haiku` and `claude-3.5-sonnet` which bring their own interesting features.
 
@@ -169,4 +169,4 @@ To avoid dependency issues:
 
 ## Bugs
 
-- The Application can still be broken in various ways are is yet to be fixed. e.g. Chainging chat mid token streaming, Giving user input during token generation, ~~newer versions of streamlit produces ghost widgets (can be fixed with downgrading package but this also leads to other issues)~~ etc..
+- The Application can still be broken in various ways and is yet to be fixed. e.g. Chainging chat mid token streaming, Giving user input during token generation, ~~newer versions of streamlit produces ghost widgets (can be fixed with downgrading package but this also leads to other issues)~~ etc..
