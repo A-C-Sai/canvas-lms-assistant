@@ -2,7 +2,7 @@
 
 ## Overview
 
-ARTIM is an AI-powered helper designed to assist students with [Canvas LMS](https://www.instructure.com/en-au/canvas) navigation and troubleshooting. Inspired by RMIT's GenAI tool "Val" and its Course Assist persona, this project demonstrates the practical implementation of advanced RAG (Retrieval-Augmented Generation) techniques in an educational context. This project was made during my study at RMIT as part of DCNC 2025 Community startup project "AI-assisted supporter".
+ARTIM is an AI-powered helper designed to assist students with [Canvas LMS](https://www.instructure.com/en-au/canvas) navigation and troubleshooting. Inspired by RMIT's GenAI tool "Val" and its Course Assist persona, this project demonstrates the practical implementation of RAG (Retrieval-Augmented Generation) techniques in an educational context. This project was made during my study at RMIT as part of DCNC 2025 Community startup project "AI-assisted supporter".
 
 ## Project Aims
 
