@@ -65,10 +65,10 @@ Each subdirectory contains comprehensive README.md files that provide detailed d
 Create a `.env` file in the root directory with the following configurations:
 
 ```env
-# OpenAI Configuration
+# OpenAI Configuration (OPTIONAL)
 OPENAI_API_KEY="<OPENAI-API-KEY>"
 
-# AWS Configurations
+# AWS Configurations (REQUIRED)
 COGNITO_REGION="<REGION>"
 BEDROCK_REGION="<REGION>"
 MODEL_ID1="<MODEL_ID1>"
@@ -76,14 +76,14 @@ MODEL_ID2="<MODEL_ID2>"
 USER_POOL_ID="<USER_POOL_ID>"
 APP_CLIENT_ID="<APP_CLIENT_ID>"
 
-# Authentication
+# Authentication (REQUIRED)
 USERNAME="<STUDENT_ID>@student.rmit.edu.au"
 PASSWORD="PASSWORD"
 
-# Additional Services
+# Additional Services (OPTIONAL)
 NOMIC="nomic-api-key"
 
-# LangSmith Configuration (for debugging and monitoring)
+# LangSmith Configuration (for debugging and monitoring) (OPTIONAL)
 LANGSMITH_TRACING="true"
 LANGSMITH_ENDPOINT="https://api.smith.langchain.com"
 LANGSMITH_API_KEY="LANGSMITH_API_KEY"
@@ -116,12 +116,15 @@ These environment variables are required for:
 
 ## Start Guide
 
-The system comes pre-configured with an indexed knowledge base and is ready to use. To get started:
+The system comes pre-configured with an indexed knowledge base and is ready to use. 
 
-1. Navigate to `03-agentic-rag-chatbot-development/05-final-product/`
-2. Create `.env` file with required credentials (see Environment Configuration section)
+To get started:
+
+0. Create a new virtual environment `conda create -p venv pyhton=3.12 -y` & `conda activate <PROJECT_DIR>/venv`
+2. Create `.env` file with required credentials in the <PROJECT_DIR> (see Environment Configuration section)
 3. Install initial dependency: `pip3 install ipykernel`
 4. Run `installing_requirements.ipynb` to set up all dependencies
+1. Navigate to `03-agentic-rag-chatbot-development/05-final-product/`
 5. Launch the application using the instructions in the final product directory
 
 The repository includes all necessary components.
