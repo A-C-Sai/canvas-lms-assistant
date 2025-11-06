@@ -169,4 +169,4 @@ To avoid dependency issues:
 
 ## Bugs
 
-- The Application can still be broken in various ways are is yet to be fixed. e.g. Chainging chat mid token streaming, Giving user input during token generation, newer versions of streamlit produces ghost widgets (can be fixed with downgrading package but this also leads to other issues) etc..
+- The Application can still be broken in various ways are is yet to be fixed. e.g. Chainging chat mid token streaming, Giving user input during token generation, ~~newer versions of streamlit produces ghost widgets (can be fixed with downgrading package but this also leads to other issues)~~ etc..
