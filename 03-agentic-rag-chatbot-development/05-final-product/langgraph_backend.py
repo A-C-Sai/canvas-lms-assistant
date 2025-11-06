@@ -87,7 +87,7 @@ vectorstore = Chroma(
 @tool
 def rewrite_query(original_raw_user_message:str) -> list[str]:
 
-    """re-write/ breakdown the raw user's message into single search queries for better document retrieval by 'fetch_canvas_guides' tool"""
+    """understand the user's intent re-write/ breakdown the complex user queries into multiple single search queries for better document retrieval by 'fetch_canvas_guides' tool"""
     
     class OptimizedQuery(BaseModel):
         """Optimized query for document retrieval"""
@@ -99,14 +99,15 @@ def rewrite_query(original_raw_user_message:str) -> list[str]:
 """
 # Task
 
-Your task is to re-write/ breakdown the user's query into one or more single search queries for better document retrieval.
+Your task is to understand the user's intent and re-write/ breakdown the user's query into one or more single search queries for better document retrieval. If the original question is already straigntforward then do not transform it.
 
 The re-written query has the following characteristics: 
-- should capture the main user problem
+- should capture the main user problem/ topic
 - should be direct, straightforward (refer to "Charasteristics of direct questions")
 - should be void of any sense of urgency or frustration that may have been present in the original query
 - should retain all important information mentioned by the user "AS IS" and be void of unnecessary background information present in the original user query
 - If the original user message/ query contains multiple questions, break them apart.
+- each re-written query should be a single direct question (without "and") or a specific single-worded topic
 
 Characteristics of direct questions:
 - Starts with a question word: They often begin with words such as "who," "what," "where," "when," "why," or "how". 
@@ -161,16 +162,23 @@ One or more consice search queries optimized for efficient document retrieval:
 #####
 
 @tool
-def fetch_canvas_guides(user_query:str, k:int=20) -> str:
-    """optimized query to search related information from canvas guides"""
+def fetch_canvas_guides(optimized_query:str, k:int=20) -> str:
+    """
+    one single optimized query (shouldn't contain "and") to search related information from canvas guides
+
+    paramaters:
+    - optimized_query: one single optimized query generated from 'rewrite_query' tool
+    - k: number of similar document to retrieve.
+    
+    """
 
     
     writer = get_stream_writer() 
     retriever = vectorstore.as_retriever(search_kwargs={"k": k})
 
-    writer(f"Searching knowledge base for:\n{user_query.capitalize()}")
+    writer(f"Searching knowledge base for:\n{optimized_query.capitalize()}")
     time.sleep(2.5)
-    retrieved_docs = retriever.invoke(user_query)
+    retrieved_docs = retriever.invoke(optimized_query)
 
     writer(f"Retrieved relevant documents...")
     writer(f"Processing documents.....")
@@ -270,19 +278,19 @@ You are ARTIM the "Canvas Assistant", an AI Support Chatbot at RMIT designed to 
 # RESPONSIBILITIES
 (VERY IMPORTANT) You are to always conduct yourself in a professional and ethical manner regardless of user's actions/ words.
 (VERY IMPORTANT) Refrain from repling to off-topic questions, instead reply with a polite message stating your intended role/ responsibilities.
-(VERY IMPORTANT) Strictly REFRAIN from generating harmful content
+(VERY IMPORTANT) Strictly REFRAIN from generating harmful content.
 --
 # RESPONSES
-# (VERY IMPORTANT) DO NOT SHARE thought process/ reasoning steps with the user.
+# (VERY IMPORTANT) DO NOT GENERATE messages such as "Let me search....", "Let me filter ...", "Let me optimize ..." etc.
 # (VERY IMPORTANT) Either directly provide the FINAL ANSWER to the user or make tool calls.
 (VERY IMPORTANT) Once you have obtained information from 'fetch_canvas_guides' tool. **STRICTLY ground** final answer to the user message in the obtained information. If the obtained information does not **explicitly** contain the answer to the user's query, politely inform the user that you are unable to assist with their query and escalate the query to "RMIT IT SUPPORT".
 (VERY IMPORTANT) ALWAYS FORMAT phone numbers, emails and urls in markdown e.g. [link](url), [link](tel:phone-number), [link](mailto:email)
 ---
 # TOOL USE
-(VERY IMPORTANT) When asked a query regarding Canvas LMS **ALWAYS** try to use 'rewrite_query', 'fetch_canvas_guides', 'filter_information' tool call cycle
-(VERY IMPORTANT) use 'rewrite_query' to breakdown questions when needed
+(VERY IMPORTANT) When asked a query regarding Canvas LMS **ALWAYS** try to use 'rewrite_query', 'fetch_canvas_guides', 'filter_information' tool call cycle multiple times if needed.
+(VERY IMPORTANT) use 'rewrite_query' to breakdown questions when needed.
 (VERY IMPORTANT) If you have insufficient knowledge in conversation history to assist with the user's query, always use 'fetch_canvas_guides' tool.
-(VERY IMPORTANT) use 'filter_information' to filter out irrelevant information from retrieved documents from 'fetch_canvas_guides'
+(VERY IMPORTANT) use 'filter_information' to filter out irrelevant information from retrieved documents from 'fetch_canvas_guides'.
 (VERY IMPORTANT) When creating a tool invocation for 'fetch_canvas_guides', NEVER modify the original user message. Pass the exact raw user text to the tool under "user_query".
 (VERY IMPORTANT) For user queries with multiple questions in a single message, **ALWAYS** make parallel tool calls to 'fetch_canvas_guides', each tool invocation taking one single question as input. After obtaining information for each sub-query, synthesize the information to provide a comprehensive response to the user's original query.
 
