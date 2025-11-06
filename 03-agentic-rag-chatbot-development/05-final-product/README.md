@@ -2,7 +2,7 @@
 
 ## Overview
 
-This directory contains the near "production-ready" implementation of the Canvas Assistant chatbot, leveraging LangGraph for the backend and Streamlit for the frontend interface. The system implements an advanced, agentic RAG-based chatbot with sophisticated conversation handling and efficient information retrieval.
+This directory contains the near "production-ready" implementation of the Canvas Assistant chatbot, leveraging LangGraph for the backend and Streamlit for the frontend interface. The system implements agentic RAG-based chatbot with conversation handling and efficient information retrieval.
 
 ## What has been built
 
@@ -15,6 +15,7 @@ This directory contains the near "production-ready" implementation of the Canvas
 
 #### Features
 - Multi-turn conversation support
+- Multi-language support
 - Multiple individual chat sessions
 - Last message editing capability
 - Long-term memory retention
