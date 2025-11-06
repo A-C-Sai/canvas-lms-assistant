@@ -1,0 +1,150 @@
+What does the term "global climate" encompass, as defined in the document?
+Which human activities have significantly contributed to climate change over the past century?
+How many cycles of glacial advance and retreat have occurred over the past 650,000 years?
+When did the abrupt end of the last ice age occur, marking the beginning of the modern climate era?
+During which epoch did human societies flourish, beginning at the end of the last ice age?
+What three indicators have rapidly increased according to modern scientific observations?
+Which organization has extensively documented climate changes?
+What types of evidence do scientists use to understand past climate conditions?
+What is the greenhouse effect, and which gases are highlighted as contributors?
+Which fuels are burned to produce energy, releasing CO2, and for what uses?
+What is the most carbon-intensive fossil fuel?
+Where is coal mined extensively?
+What is the primary use of oil?
+What emissions are released by the combustion of oil products?
+Why is natural gas often seen as a 'bridge fuel' to a lower-carbon future?
+Which greenhouse gas is particularly associated with natural gas extraction and use?
+What happens to stored carbon when trees are cut down for timber or to clear land for agriculture?
+Which tropical regions are mentioned as significant for carbon storage?
+What activities lead to tropical deforestation in the Amazon, Congo Basin, and Southeast Asia?
+What role do boreal forests play in regulating the Earth's climate?
+What greenhouse gases are associated with ruminant digestion and manure management practices?
+How can innovations in livestock feeding and waste management help mitigate these emissions?
+Where do anaerobic conditions that lead to methane production occur in rice cultivation?
+What practices can reduce methane emissions from rice cultivation?
+Which greenhouse gas is released by the use of synthetic fertilizers?
+What practices are mentioned to mitigate nitrous oxide emissions from fertilizers?
+By how much have global temperatures risen since the late 19th century?
+What phenomenon makes heatwaves more frequent and severe in cities?
+How is the timing and length of seasons changing due to climate change?
+By how much have sea levels risen in the past century?
+What regions does the document identify as relying on glacial meltwater, and what risks does glacial melt pose for them?
+How does rising sea level contribute to coastal erosion, and which areas are described as especially vulnerable?
+Why can warmer ocean temperatures intensify hurricanes and typhoons, and what risks do these storms pose to coastal regions?
+How are droughts described in terms of causes and impacts, and which regions are particularly affected?
+What strategies are listed for flood management to address heavy rainfall events?
+How does increased CO2 in the atmosphere affect ocean acidity, and which marine organisms are especially affected?
+What ice-loss trends are reported for the Arctic and Antarctic, and what global consequences are associated with this melting?
+How does the document define glacial retreat, and which sectors beyond water supply does it affect?
+Which extreme weather events are linked to climate change in the document, and what are the general impacts?
+Why is adaptation investment emphasized for coastal communities, and what specific adaptation measures are suggested?
+What are the two main components of addressing climate change, as described in Chapter 4: Mitigation and Adaptation?
+How does ocean acidification affect coral reefs and marine ecosystems?
+Why are reducing CO2 emissions and enhancing marine protected areas described as vital for coral reef conservation?
+Which renewable energy sources are cited as crucial for reducing greenhouse gas emissions?
+How does solar power generate electricity?
+What is wind power and what potential does it hold for large-scale deployment?
+What environmental consideration is noted regarding hydroelectric power?
+Which measures contribute to improving energy efficiency in buildings, transportation, and industry?
+How can improving energy efficiency in buildings, transportation, and industry reduce emissions?
+Why is transitioning to renewable energy described as crucial for reducing greenhouse gas emissions?
+What measures can contribute to energy efficiency in buildings?
+How can retrofitting existing buildings enhance energy efficiency?
+What actions can reduce emissions from the transportation sector?
+Which approaches can enhance the energy efficiency of industrial processes and equipment?
+How do reforestation and afforestation differ in the context of carbon sequestration?
+What additional benefits do reforestation projects provide besides restoring degraded lands?
+What purposes do afforestation initiatives serve as described in the document?
+How do international agreements like the Paris Agreement aim to limit global warming?
+What roles do national and local policies play in implementing mitigation and adaptation strategies?
+Which international climate agreements are cited in the document as setting targets for reducing greenhouse gas emissions?
+What policy tools do countries use to meet their climate goals, as described in the document?
+How should national strategies align with global targets while addressing local needs and capacities?
+Where do local governments and communities play a crucial role in climate action?
+What are some examples of local initiatives mentioned in the text?
+How is continuous research and innovation described as vital for addressing climate change?
+What technologies are highlighted under Research and Innovation as essential for combating climate change?
+What is the aim of carbon capture and storage (CCS) technologies according to the document?
+How can innovations in sustainable agriculture help reduce emissions and protect ecosystems?
+What factor is described as essential for fostering innovation, involving collaboration among different sectors?
+What are the subtopics listed under Chapter 5: The Role of Technology in Climate Change Mitigation?
+Which two novel solar technologies are cited in the document as promising higher efficiency and lower costs?
+How do floating solar farms help by reducing evaporation from water bodies and why might this improve overall performance?
+Where are offshore wind farms typically located, and why does this location yield benefits?
+What role do battery storage systems play in balancing supply and demand for renewable energy sources?
+Which lithium-ion and solid-state battery technologies are highlighted in the document for energy storage?
+What functions do smart grids serve in managing electricity and integrating renewable energy sources?
+How does pumped hydro storage operate and what type of storage solution does it provide?
+What is Direct Air Capture, and what options are described for the captured CO2?
+What innovations are making offshore wind an increasingly cost-competitive option?
+How do smart grids utilize meters, sensors, and analytics to improve energy efficiency?
+What can captured CO2 be used to produce?
+What two outcomes does carbon utilization offer?
+What is expanding rapidly in the field of carbon utilization technologies?
+What emissions do electric vehicles produce at the tailpipe?
+What impact have advances in battery technology had on electric vehicles?
+Why is infrastructure development crucial for widespread adoption of electric vehicles?
+How do hydrogen fuel cells generate electricity and what is their byproduct?
+For what applications are fuel cell vehicles particularly suitable?
+What can investments in efficient and reliable public transportation systems reduce?
+What does agroforestry integrate into agricultural landscapes?
+What is the UNFCCC and what is its purpose?
+Which two major agreements are negotiated under the UNFCCC as cited in the document?
+What are the temperature targets of the Paris Agreement?
+How do countries participate in the Paris Agreement in terms of planned actions?
+What are carbon pricing mechanisms, and what effect do they intend to have?
+What policies support renewable energy targets according to the document?
+What are the typical forms of emission reduction regulations, and why is enforcement important?
+Why are cities particularly important in climate action, according to the document?
+What components are included in urban climate action programs?
+What role do community engagement and participatory planning play in urban climate action?
+What are community-based conservation projects, and what do they involve?
+Which natural resources are protected and restored by community-based conservation projects?
+How do community-based conservation projects enhance local resilience and biodiversity?
+Why is raising public awareness about climate change and sustainability crucial for driving action?
+What roles do schools, NGOs, and local governments play in education and awareness efforts?
+What are the economic costs of climate change as described in the document?
+How does climate change exacerbate social inequalities, and who bears the brunt of its impacts?
+What economic opportunities are created by investing in renewable energy, energy efficiency, and sustainable practices?
+What health benefits result from reducing emissions and pollution?
+How can the transition to a green economy drive innovation and competitiveness, and which sectors are highlighted as emerging drivers?
+What ecosystem services are provided by healthy ecosystems according to the document?
+What benefits do ecosystem-based approaches to climate action deliver?
+What are the applications of AI and machine learning in climate action mentioned in the text?
+How can AI and machine learning improve disaster response and resource management?
+What purposes can blockchain technology serve in climate action as described in the document?
+Which bioengineering approaches are highlighted for carbon sequestration and sustainable resource management?
+What is the purpose of integrated climate policies as outlined in the chapter?
+Why is international cooperation considered crucial in addressing climate change?
+How do public-private partnerships contribute to accelerating climate action?
+What characteristics must integrated climate policies have to remain effective, according to the document?
+What areas are PPPs particularly effective in, according to the document?
+How are behavioral shifts described as essential for achieving climate goals?
+Why should cultural values and norms influence how societies respond to climate change?
+Where do public campaigns and educational initiatives play crucial roles in climate action?
+Who are vital stakeholders in climate action, and how can they be empowered?
+Which youth movement is cited as demonstrating the power of young voices in advocating for a sustainable future?
+How does climate change alter terrestrial ecosystems, specifically in terms of habitat ranges and species distributions?
+How are marine ecosystems affected by climate change, including factors like rising sea temperatures, ocean acidification, and changing currents?
+What shifts are occurring in forests, grasslands, and deserts according to the chapter on climate change and biodiversity?
+What does the document say is required from all sectors of society to build a resilient, equitable, and thriving world?
+What factors can lead to altered water quality, habitat loss, and reduced biodiversity in freshwater ecosystems?
+Which freshwater taxa are highlighted as being particularly at risk?
+Why are protected areas considered crucial for conserving biodiversity?
+How can the effectiveness of protected areas be enhanced according to the document?
+Which activities are included in habitat restoration?
+What does ex-situ conservation involve, and where are examples of ex-situ facilities mentioned?
+What are nature-based solutions, and what multi-benefits do they provide?
+What climate considerations are emphasized to make conservation efforts climate-resilient?
+How is biodiversity integrated into climate policy, and what outcomes does this integration aim for?
+How do protected areas contribute to science and education, besides protecting species?
+What heat-related illnesses are associated with rising temperatures and more frequent heatwaves?
+Which populations are particularly at risk for heat-related illnesses according to the document?
+What heat mitigation strategies are described as essential for protecting public health?
+How does climate change influence the distribution and prevalence of vector-borne diseases such as malaria, dengue fever, and Lyme disease?
+Which two approaches are critical for prevention and control of vector-borne diseases?
+What health issues are exacerbated by increased air pollution due to climate change, and which pollutants are highlighted (ground-level ozone and particulate matter)?
+What actions are proposed to improve air quality and public health?
+What impacts does climate change have on food production and water availability, and what are the resulting implications for nutrition and health?
+What measures are recommended to ensure food and water security in the context of climate change?
+What are the two main components of health adaptation strategies, and what does each entail for Public Health Infrastructure and Community Engagement?
